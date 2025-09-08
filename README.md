@@ -16,7 +16,8 @@ module.exports = {
 
 package.json
   "eslintConfig": {
-     extends: ['eslint-config-laybrid']
+    "extends": ["eslint-config-laybrid"],
+    "rules": {}
   },
 ```
 还需要在vscode中下载`Prettier-code formatter`插件,并将Prettier设置为默认的格式化工具,这样你就可以通过vscode快捷键shift alt f完成一键格式化
