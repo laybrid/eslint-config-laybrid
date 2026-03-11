@@ -1,3 +1,5 @@
+const prettierConfig = require("./prettier.cjs");
+
 module.exports = {
   root: true,
   env: {
@@ -35,20 +37,6 @@ module.exports = {
         ignoreAccessible: false,
       },
     ],
-    "prettier/prettier": [
-      "error",
-      {
-        tabWidth: 2,
-        semi: false,
-        singleQuote: true,
-        trailingComma: "none",
-        bracketSpacing: true,
-        objectWrap: "preserve",
-        bracketSameLine: false,
-        arrowParens: "avoid",
-        vueIndentScriptAndStyle: false,
-        singleAttributePerLine: false,
-      },
-    ],
+    "prettier/prettier": ["error", prettierConfig],
   },
 };

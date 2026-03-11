@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-laybrid",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "My ESLint config with Prettier integration",
   "keywords": [
     "\"eslint\"",
