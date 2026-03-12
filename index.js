@@ -30,17 +30,18 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'vue/attribute-hyphenation': ['error', 'always'],
     'vue/component-definition-name-casing': ['error', 'PascalCase'],
-    'vue/max-attributes-per-line': [
-      'error',
-      {
-        singleline: {
-          max: 3
-        },
-        multiline: {
-          max: 3
-        }
-      }
-    ],
+    //  conflict with prettier
+    // 'vue/max-attributes-per-line': [
+    //   'error',
+    //   {
+    //     singleline: {
+    //       max: 3
+    //     },
+    //     multiline: {
+    //       max: 3
+    //     }
+    //   }
+    // ] ,
     'vue/no-template-shadow': 'error',
     'vue/prop-name-casing': ['error', 'camelCase'],
     'vue/v-on-event-hyphenation': 'error',
