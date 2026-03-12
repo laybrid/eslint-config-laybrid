@@ -67,8 +67,8 @@ module.exports = {
         multiline: 'always'
       }
     ],
-    'vue/no-undef-directives': 'error',
-    'vue/slot-name-casing': ['error', 'camelCase'],
+    // 'vue/no-undef-directives': 'error',
+    // 'vue/slot-name-casing': ['error', 'camelCase'],
     'prettier/prettier': ['error', prettierConfig]
   }
 }

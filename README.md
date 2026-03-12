@@ -26,7 +26,7 @@ package.json
 由于插件本身自带一套默认的配置，所以我们需要在编辑器对插件做一个简单的配置，目的是告诉插件我们的配置文件的位置
 ```
  编辑器设置里搜索 prettier config path
- ./node_modules/eslint-config-laybrid/prettier.cjs 
+ ./node_modules/eslint-config-laybrid/prettier.config.cjs 
 ```
  将上述路径填入即可。这一步很重要不然项目开发的时候包和插件用的配置文件不一样会报错。
 ## Tips
