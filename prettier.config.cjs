@@ -2,11 +2,11 @@ module.exports = {
   tabWidth: 2,
   semi: false,
   singleQuote: true,
-  trailingComma: "none",
+  trailingComma: 'none',
   bracketSpacing: true,
-  objectWrap: "preserve",
+  objectWrap: 'preserve',
   bracketSameLine: false,
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
   vueIndentScriptAndStyle: false,
-  singleAttributePerLine: false,
-};
+  singleAttributePerLine: false
+}
