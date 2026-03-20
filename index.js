@@ -14,6 +14,24 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020
   },
+  overrides: [
+    {
+      files: ['*.vue'],
+      env: {
+        // 兼容：如果你项目里的 vue-eslint-parser 版本较低，编译宏需要显式启用
+        'vue/setup-compiler-macros': true
+      },
+      globals: {
+        defineProps: 'readonly',
+        defineEmits: 'readonly',
+        defineExpose: 'readonly',
+        defineSlots: 'readonly',
+        withDefaults: 'readonly',
+        defineModel: 'readonly',
+        defineOptions: 'readonly'
+      }
+    }
+  ],
   rules: {
     'array-callback-return': 'error',
     'no-await-in-loop': 'error',
