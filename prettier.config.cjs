@@ -8,5 +8,6 @@ module.exports = {
   bracketSameLine: false,
   arrowParens: 'avoid',
   vueIndentScriptAndStyle: false,
-  singleAttributePerLine: false
+  singleAttributePerLine: false,
+  endOfLine: 'auto'
 }
