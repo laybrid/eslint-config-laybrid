@@ -33,6 +33,7 @@ module.exports = {
     }
   ],
   rules: {
+    'no-undef': 'off',
     'array-callback-return': 'error',
     'no-await-in-loop': 'error',
     'no-duplicate-imports': 'error',
