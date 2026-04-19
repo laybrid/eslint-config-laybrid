@@ -44,7 +44,8 @@ module.exports = {
     'no-unmodified-loop-condition': 'error',
     'no-unreachable-loop': 'error',
     // 'no-useless-assignment': 'warn' eslint version 9xxx,
-    'new-cap': 'error',
+    // 不兼容element-plus的一些全局函数
+    // 'new-cap': 'error',
     'prefer-const': 'error',
     'vue/multi-word-component-names': 'off',
     'vue/attribute-hyphenation': ['error', 'always'],
